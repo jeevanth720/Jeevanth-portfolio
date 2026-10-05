@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jeevanth — Video Editor</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;background:#080d16;color:#fff;line-height:1.6}
+a{text-decoration:none;color:inherit}nav{position:fixed;top:0;width:100%;z-index:10;padding:18px 7%;background:rgba(8,13,22,.88);backdrop-filter:blur(14px);border-bottom:1px solid #202938;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:22px;font-weight:800}.small-text,.hero h1 span,.stat h3{color:#7c5cff}.nav-links{display:flex;gap:28px;list-style:none}.nav-links a{color:#b7bdc9}
+.hero{min-height:100vh;padding:150px 7% 80px;display:flex;align-items:center;justify-content:space-between;gap:50px;background:radial-gradient(circle at 80% 30%,rgba(124,92,255,.15),transparent 35%)}
+.hero-text{max-width:760px}.small-text{font-weight:700;letter-spacing:2px;text-transform:uppercase;margin-bottom:15px}.hero h1{font-size:clamp(50px,8vw,90px);line-height:1;margin-bottom:25px}.hero p{color:#aeb5c2;font-size:19px;max-width:700px;margin-bottom:20px}.hero .specialties{margin-bottom:35px}.hero .specialties strong{color:#d9dce3;font-weight:600}
+.buttons{display:flex;gap:15px;flex-wrap:wrap}.btn{padding:14px 25px;border-radius:8px;font-weight:700}.primary{background:#7c5cff}.secondary{border:1px solid #343b49;color:#d9dce3}
+.hero-card{width:300px;height:300px;border-radius:30px;background:linear-gradient(145deg,#161d2a,#0c111b);border:1px solid #2a3140;display:flex;justify-content:center;align-items:center;text-align:center;box-shadow:0 30px 80px #0006}.play{width:80px;height:80px;border-radius:50%;background:#7c5cff;display:flex;align-items:center;justify-content:center;margin:0 auto 20px;font-size:30px}
+section{padding:100px 7%}.section-title{text-align:center;margin-bottom:55px}.section-title h2{font-size:42px}.section-title p{color:#8e96a5}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;max-width:900px;margin:auto}.stat,.skill,.video-card{background:#101722;border:1px solid #202938;border-radius:15px}.stat{padding:30px;text-align:center}.stat h3{font-size:40px}.stat p,.skill p,.video-info p{color:#8e96a5}
+.about{max-width:900px;margin:auto;text-align:center}.about p{color:#aab1be;font-size:18px}
+.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;max-width:1000px;margin:auto}.skill{padding:30px;transition:.3s}.skill:hover,.video-card:hover{transform:translateY(-5px);border-color:#7c5cff}
+.portfolio{display:grid;grid-template-columns:repeat(3,1fr);gap:25px}.video-card{overflow:hidden;transition:.3s}.video-box{aspect-ratio:16/9;background:#151c28;display:flex;align-items:center;justify-content:center;color:#737c8c}.video-box iframe{width:100%;height:100%;border:0}.video-info{padding:18px}
+.contact-box{max-width:800px;margin:auto;padding:50px;text-align:center;background:linear-gradient(145deg,#111927,#0b111b);border:1px solid #273044;border-radius:20px}.contact-box h2{font-size:40px}.contact-box p{color:#969eac;margin:15px 0 30px}.contact-details{display:flex;justify-content:center;gap:25px;flex-wrap:wrap}.contact-details a{color:#bfc5d0}
+footer{text-align:center;padding:30px;border-top:1px solid #1c2431;color:#737b8a}
+@media(max-width:800px){.nav-links{display:none}.hero{flex-direction:column;text-align:center;padding-top:130px}.hero p{margin-left:auto;margin-right:auto}.buttons{justify-content:center}.hero-card{width:250px;height:250px}.stats,.skills,.portfolio{grid-template-columns:1fr}section{padding:70px 5%}.section-title h2{font-size:34px}.contact-box{padding:35px 20px}}
+</style>
+</head>
+<body>
+<nav><div class="logo">JEEVANTH</div><ul class="nav-links"><li><a href="#home">Home</a></li><li><a href="#skills">Skills</a></li><li><a href="#work">Work</a></li><li><a href="#contact">Contact</a></li></ul></nav>
+
+<section class="hero" id="home">
+<div class="hero-text">
+<div class="small-text">Video Editor</div>
+<h1>Hi, I'm <span>Jeevanth R</span></h1>
+<p>I’m Jeevanth R., a 17-year-old video editor with around 1.5 years of editing experience. I’ve worked with a few clients and have been continuously improving my skills through personal projects and creative edits.</p>
+<p class="specialties">I specialize in <strong>fast cuts, cinematic videos, short-form content, storytelling, captions, transitions, brand content, college events, and social media short-form videos.</strong></p>
+<div class="buttons"><a class="btn primary" href="#work">View My Work</a><a class="btn secondary" href="#contact">Contact Me</a></div>
+</div>
+
+</section>
+
+
+
+<section>
+<div class="stats">
+<div class="stat"><h3>1.5+</h3><p>Years Experience</p></div>
+<div class="stat"><h3>100+</h3><p>Videos Edited</p></div>
+
+</div>
+</section>
+
+<section id="work">
+<div class="section-title"><h2>My Work</h2></div>
+<div class="portfolio">
+<div class="video-card"><div class="video-box"><div class="video-placeholder">Video Sample 1</div></div><div class="video-info"><h3>Project 1</h3><p>Video editing sample</p></div></div><div class="video-card"><div class="video-box"><div class="video-placeholder">Video Sample 2</div></div><div class="video-info"><h3>Project 2</h3><p>Video editing sample</p></div></div><div class="video-card"><div class="video-box"><div class="video-placeholder">Video Sample 3</div></div><div class="video-info"><h3>Project 3</h3><p>Video editing sample</p></div></div><div class="video-card"><div class="video-box"><div class="video-placeholder">Video Sample 4</div></div><div class="video-info"><h3>Project 4</h3><p>Video editing sample</p></div></div><div class="video-card"><div class="video-box"><div class="video-placeholder">Video Sample 5</div></div><div class="video-info"><h3>Project 5</h3><p>Video editing sample</p></div></div><div class="video-card"><div class="video-box"><div class="video-placeholder">Video Sample 6</div></div><div class="video-info"><h3>Project 6</h3><p>Video editing sample</p></div></div><div class="video-card"><div class="video-box"><div class="video-placeholder">Video Sample 7</div></div><div class="video-info"><h3>Project 7</h3><p>Video editing sample</p></div></div><div class="video-card"><div class="video-box"><div class="video-placeholder">Video Sample 8</div></div><div class="video-info"><h3>Project 8</h3><p>Video editing sample</p></div></div><div class="video-card"><div class="video-box"><div class="video-placeholder">Video Sample 9</div></div><div class="video-info"><h3>Project 9</h3><p>Video editing sample</p></div></div><div class="video-card"><div class="video-box"><div class="video-placeholder">Video Sample 10</div></div><div class="video-info"><h3>Project 10</h3><p>Video editing sample</p></div></div><div class="video-card"><div class="video-box"><div class="video-placeholder">Video Sample 11</div></div><div class="video-info"><h3>Project 11</h3><p>Video editing sample</p></div></div><div class="video-card"><div class="video-box"><div class="video-placeholder">Video Sample 12</div></div><div class="video-info"><h3>Project 12</h3><p>Video editing sample</p></div></div>
+</div>
+</section>
+
+<section id="skills">
+<div class="section-title"><h2>My Skills</h2><p>Tools I use to bring ideas to life</p></div>
+<div class="skills">
+<div class="skill"><h3>CapCut</h3><p>Fast-paced edits, captions, transitions, effects and social media content.</p></div>
+<div class="skill"><h3>DaVinci Resolve</h3><p>Professional editing, color work and advanced post-production.</p></div>
+<div class="skill"><h3>Premiere Pro</h3><p>Professional timeline editing, storytelling and content production.</p></div>
+</div>
+</section>
+
+<section id="contact">
+<div class="contact-box">
+<h2>Let's Work Together</h2>
+<p>Have a project in mind? Feel free to contact me.</p>
+<div class="contact-details">
+<a href="mailto:YOUR_EMAIL@gmail.com">📧 YOUR_EMAIL@gmail.com</a>
+<a href="https://instagram.com/YOUR_USERNAME" target="_blank">📱 Instagram</a>
+<a href="https://wa.me/YOUR_NUMBER" target="_blank">💬 WhatsApp</a>
+</div>
+</div>
+</section>
+
+<footer>© 2026 Jeevanth. All Rights Reserved.</footer>
+</body>
+</html>
